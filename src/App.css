@@ -51,23 +51,23 @@ button{
   margin: 10px 0px 10px;
 
 }
-.SelectedItems{
+.selectedItems{
 
   border: solid black;
   width: 90vw;
   margin: 20px;
   margin-bottom: 120px;
+  
 
 }
 .item{
   margin-bottom: 30px;
-  margin-right: 20px ;
-  width: 40%;
+  /* margin-right: 20px ; */
+  width: 100%;
   border-radius: 5px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   padding: 10px;
-  text-align: left;
   
   
 }
@@ -82,15 +82,42 @@ button{
 
 .itemInfo{
   display: flex;
-  justify-content: space-around;
   
 }
 
 .info{
 
   padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 
 }
+.screen{
+ 
+  width: 80vw;
+}
+
+.checkout{
+  margin-bottom: 30px;
+  width: 90%;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 10px;
+  text-align: left;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
+
+.checkoutBtn{
+  padding: 10px;
+  margin: 10px;
+  font-size: larger;
+}
+
 
 .App-logo {
   height: 40vmin;
