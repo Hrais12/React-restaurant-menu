@@ -12,6 +12,8 @@
   border: solid black;
   width: 90vw;
   margin: 20px;
+  
+  
 }
 .SelectedItems{
   border: solid red;
@@ -125,6 +127,26 @@ button{
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.menuCategory{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  /* border: solid red; */
+  width: 60vw;
+  position: relative;
+  left: 200px;
+
+}
+.categoryBtn{
+
+  padding: 20px;
+  width: 200px;
+  font-size:larger;
+  background-color: rgb(202, 6, 6);
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
