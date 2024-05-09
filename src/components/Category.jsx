@@ -15,8 +15,8 @@ function Category({ category, addAction, menuItems }) {
       {showCategory()}
       <ul className="list">
         {menuItems.map((item, index) => (
-          <div className="result">
-            <li key={index}>
+          <div className="result" key={index}>
+            <li>
               <img src={item.image} alt={item.name} />
               <div>
                 <span>

@@ -118,6 +118,9 @@ button{
   font-size: larger;
 }
 
+.plus, .minus{
+  margin: 20px;
+}
 
 .App-logo {
   height: 40vmin;
