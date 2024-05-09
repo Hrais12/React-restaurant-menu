@@ -43,7 +43,7 @@ function SelectedItems({
         <div className="checkout">
           <b>
             {" "}
-            ${total} subtotal {count} items
+            ${total} Subtotal {count} Items
           </b>
           <button className="checkoutBtn">Check out</button>
         </div>
